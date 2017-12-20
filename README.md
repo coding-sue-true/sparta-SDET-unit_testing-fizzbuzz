@@ -12,10 +12,17 @@ For this, we used the TDD (Test-Driven Development) approach, where we first hav
 To run the tests we used the RSpec gem.
 
 ## How To Test
-1. Git clone this repository
-2. Run bundle to make sure you have all the required gems installed
-3. On your console go into the folder where this repo is cloned
-4. Run 'rspec'
+- Git clone this repository
+- On your console move into the folder where this repository is cloned.
+- Run bundle to make sure you have rspec installed
+```
+gem install rspec
+bundle
+```
+- Run 'rspec' to run the code
+```
+  rspec
+```
 5. Something like the following should be displayed in your console:
 
 ![FizzBuzz_Console](/images/fizzbuzz_console.png)
